@@ -11,9 +11,10 @@ int main(void)
   int c=0;
   while(c<8)
     {
-      putchar(ptcr[c]);
+      _putchar(ptcr[c]);
     }
-  putchar('\n');
+  _putchar('\n'); 
+
   return (0);
 }
 
