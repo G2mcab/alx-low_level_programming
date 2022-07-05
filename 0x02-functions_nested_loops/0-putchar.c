@@ -1,20 +1,20 @@
 #include "main.h"
-/**                                                                                                                                               
- * main - prints _putchar followed by new line                                                                                                    
- * Return: 0                                                                                                                                     
+/**
+ * main - main function
+ * description: prints _putchar
+ * Return: 0
  */
-
 int main(void)
 {
- 	char ptcr[]="_putchar";
+	char ptcr[] = "_putchar";
 
- 	int c=0;
-	while(c<8)
+	int c = 0;
+
+	while (c < 8)
 	{
 		_putchar(ptcr[c]);
-		c+=1;
+		c += 1;
 	}
-	_putchar('\n'); 
-
+	_putchar('\n');
 	return (0);
 }
