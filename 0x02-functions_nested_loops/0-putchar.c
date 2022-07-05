@@ -12,6 +12,7 @@ int main(void)
   while(c<8)
     {
       _putchar(ptcr[c]);
+      c+=1;
     }
   _putchar('\n'); 
 
