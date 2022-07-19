@@ -67,4 +67,4 @@ Note that in the following example we are casting an int[][] into an int*. This 
     You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev
     Edit the source list sudo nano /etc/apt/sources.list to add the following line: deb http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update and sudo apt install libssl1.0.0
 
-
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-strstr.c -o 5-strstr
