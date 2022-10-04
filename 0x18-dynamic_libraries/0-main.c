@@ -21,3 +21,30 @@ int _islower(int c)
 {
 	return (1);
 }
+
+int _isalpha(int c)
+{
+	return (1);
+}
+int _isupper(int c)
+{
+	return (1);
+}
+int _isdigit(int c)
+{
+	return (1);
+}
+int _strlen(char *s)
+{
+	return (1);
+}
+void _puts(char *s)
+{
+}
+char *_strcpy(char *dest, char *src){
+	return "a";
+}
+int _atoi(char *s)
+{
+	return (1);
+}
