@@ -48,3 +48,43 @@ int _atoi(char *s)
 {
 	return (1);
 }
+char *_strcat(char *dest, char *src)
+{
+	return "a";
+}
+char *_strncat(char *dest, char *src, int n)
+{
+	return "a";
+}
+char *_strncpy(char *dest, char *src, int n)
+{
+	return "a";
+}
+int _strcmp(char *s1, char *s2)
+{
+	return (1);
+}
+char *_memset(char *s, char b, unsigned int n)
+{
+	return "A";
+}
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	return "a";
+}
+char *_strchr(char *s, char c)
+{
+	return "a";
+}
+unsigned int _strspn(char *s, char *accept)
+{
+	return (1);
+}
+char *_strpbrk(char *s, char *accept)
+{
+	return "a";
+}
+char *_strstr(char *haystack, char *needle)
+{
+	return "a";
+}
