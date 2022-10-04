@@ -11,3 +11,13 @@ int main(void)
     printf("%d\n", _strlen("My Dyn Lib"));
     return (1);
 }
+
+int _putchar(char c)
+{
+	return (1);
+}
+
+int _islower(int c)
+{
+	return (1);
+}
